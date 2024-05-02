@@ -1,8 +1,11 @@
-# React + Vite
+# Vite React Product Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple product management web application built with React and Vite. It allows users to view a list of products, search for products by name or category, and download the product data in CSV format.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View a list of products with details such as ID, title, description, price, brand, category, and ratings.
+- Search for products by name or category.
+- Pagination to navigate through multiple pages of products.
+- Select the number of items per page.
+- Download available product data in CSV format.
